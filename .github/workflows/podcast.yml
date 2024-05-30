@@ -12,9 +12,9 @@ jobs:
     name: Sync
     runs-on: ubuntu-latest
     env:
-        NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        NOTION_PAGE: ${{ secrets.NOTION_PAGE }}
-        REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
+        NOTION_TOKEN: ${{secrets.NOTION_TOKEN}}
+        NOTION_PAGE: ${{secrets.NOTION_PAGE}}
+        REFRESH_TOKEN: ${{secrets.REFRESH_TOKEN}}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
